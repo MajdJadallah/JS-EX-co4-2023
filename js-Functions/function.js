@@ -42,10 +42,10 @@ positive integers less than or equal to n. In simple terms, the Factorial of 8 i
 //4. A Write a function that lets you know if a number is Even or Odd .
 function numberType(num){
     if(num%2===0){
-        return "Even"
+        return 0
     }
     else{
-        return "Odd"
+        return 1
     }
 }
 console.log(numberType(5));
