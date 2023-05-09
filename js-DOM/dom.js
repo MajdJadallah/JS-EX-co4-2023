@@ -111,12 +111,10 @@ form.addEventListener('submit', event => {
   } else if (confirmPassword.value !== password.value) {
     alert('Passwords do not match');
   }
-  
   // Enable/disable submit button based on input validity
   const inputs = [userName, password, email, confirmPassword];
   const isValid = inputs.every(input => input.value.trim() !== '');
   submitButton.disabled = !isValid;
-  
   // Display success message if all inputs are valid
   if (isValid) {
     successMessage.textContent = 'Registration successful!';
