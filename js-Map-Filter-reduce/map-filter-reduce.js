@@ -3,8 +3,8 @@ space characters at the beginning and end. The clean Names() function should use
 map method to return a new array full of trimmed names.*/
 let names=[" injustice", " SuperMan", "Batman ", " flash "]
 function cleanNames(arrayName){
-    const trimmedNames = arrayName.map((names)=>{
-        return names.trim()
+    const trimmedNames = arrayName.map((name)=>{
+        return name.trim()
     })
     return trimmedNames;
 }
@@ -70,9 +70,6 @@ const heros = [
     {name: 'Hulk', power: 'Super strength'}
     ]
 console.log(heros.map((hero,index)=>{return {hero:hero.name,power:hero.power,id:index};}));
-
-
-
 
 /*//8. Write a JavaScript function that takes in the array "input Words" as an argument, and using
 the filter method, it returns a new array containing only the elements that have more than 7

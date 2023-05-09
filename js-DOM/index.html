@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/js-DOM/dom.css">
+    <title>Regestier</title>
+</head>
+<body>
+<form id="form">
+  <h1>Regestration Form</h1>
+  <div class="input-control">
+    <label for="username">Username: </label>
+    <input type="text" id="username" name="username" placeholder="Max chars 10 only" required>
+    <div class="error"></div>
+   </div>
+   <br>
+   <div class="input-control">
+    <label for="email">Your Email: </label>
+    <input type="email" id="email" name="email" required>
+    <div class="error"></div>
+   </div>
+   <br>
+   <div class="input-control">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Can't be empty" required>
+    <div class="error"></div>
+
+   </div><br>
+   <div class="input-control">
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+    <div class="error"></div>
+   </div><br>
+   <button id="registerBtn" type="submit" >Sign Up</button>
+</form>
+
+
+
+
+<script src="/js-DOM/dom.js"></script>
+</body>
+</html>
